@@ -7,6 +7,17 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+admin/node_modules
+notification/node_modules
+server/node_modules
+
+admin/package-lock.json
+notification/package-lock.json
+server/package-lock.json
+
+server/src/utils/firebaseAdminSDK.json
+
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
